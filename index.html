@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header class="heading">
+        <h1 class="heading_title">Simple, traffic-based pricing
+        </h1>
+        <p class="heading_text"> Sign-up for our 30-day trial. No credit card required.</p>
+    </header>
+
+    <main class=" offer">
+        <section class="choiceBox">
+            <div class="choiceBox_text--upper"> 100k Pageviews</div>
+            <input class="choiceBox_input--slider" min=1 max=5 type="range">
+            <div class="choiceBox_text--grid-place-change"> <span class="choiceBox_text-output-value">16 $</span> /month
+            </div>
+            <div class="choiceBox_input--toggle">
+                <p class="choiceBox_text"> Monthly Billing
+                </p><input type="range" min=0 max=1 value=0 class="choiceBox_input--oneStepSlider" name="" id="">
+                <p class="choiceBox_text">Yearly Billing <span class="choiceBox_text--highlighted"> 25% <span
+                            class="choiceBox_text-nonVisible">discount</span></span> </p>
+            </div>
+        </section>
+        <section class="submitBox">
+            <ul class="submitBox_list">
+                <li class="submitBox_list-item"><img class="submitBox_iconCheck" src="img/icon-check.svg" alt="">
+                    Unlimited websites</li>
+                <li class="submitBox_list-item"><img class="submitBox_iconCheck" src="img/icon-check.svg" alt="">
+                    100% data ownership</li>
+                <li class="submitBox_list-item"><img class="submitBox_iconCheck" src="img/icon-check.svg" alt="">
+                    Email reports</li>
+            </ul>
+            <button class="submitBox_btn"> Start my trial</button>
+
+        </section>
+
+    </main>
+
+    <script src="js/main.min.js">
+
+    </script>
+</body>
+
+</html>
